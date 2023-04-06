@@ -80,7 +80,7 @@ const exchange = () => {
       </Script> */}
       <div className="container max-w-[1280px] px-6 py-24 mx-auto h-full">
         <div className="flex items-center justify-center flex-col h-full">
-          <h3 className="text-center">SafeGrow | Multichain</h3>
+          <h3 className="text-center">SFG Multichain</h3>
           <div
             id="rubic-widget-root"
             className="mt-8 max-w-[500px] mx-auto"
