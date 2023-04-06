@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Kusanagi";
+  src: url("/Kusanagi.woff2") format("woff2"),
+    url("/Kusanagi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  body {
+    @apply bg-[#030E1C] text-white;
+  }
+  h1 {
+    @apply font-heading text-3xl sm:text-4xl lg:text-6xl leading-tight sm:leading-tight lg:leading-tight tracking-widest;
+  }
+  h2 {
+    @apply font-heading text-2xl sm:text-4xl lg:text-5xl leading-tight tracking-[0.3em];
+  }
+  h3 {
+    @apply font-heading text-xl leading-normal tracking-[0.3em];
+  }
+  h4 {
+    @apply font-heading text-lg leading-normal tracking-[0.3em];
+  }
+}
+
+.gradient {
+  background: linear-gradient(180deg, #68bfdb 0%, #0c8079 100%);
+  box-shadow: 0px 4px 0px #004b47;
+}
+
+thead tr th {
+  text-align: left;
+
+  padding: 10px;
+}
+tbody tr td {
+  text-align: left;
+
+  padding: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

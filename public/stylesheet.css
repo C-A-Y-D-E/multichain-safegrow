@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kusanagi';
+    src: url('Kusanagi.woff2') format('woff2'),
+        url('Kusanagi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
